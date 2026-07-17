@@ -14,7 +14,7 @@
     button.setAttribute("aria-pressed", String(dark));
     button.setAttribute("aria-label", `Switch to ${dark ? "light" : "dark"} theme`);
     button.title = `Switch to ${dark ? "light" : "dark"} theme`;
-    themeColor?.setAttribute("content", dark ? "#151412" : "#faf9f5");
+    themeColor?.setAttribute("content", dark ? "#000000" : "#faf9f5");
   };
 
   button.addEventListener("click", () => {

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="15" fill="#faf9f5"/>
   <text x="8" y="41" fill="#181715" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-2">CS</text>
-  <text x="43" y="41" fill="#c6694e" font-family="Arial, sans-serif" font-size="25" font-weight="700" font-style="italic">i</text>
+  <text x="43" y="41" fill="#b8a1d6" font-family="Arial, sans-serif" font-size="25" font-weight="700" font-style="italic">i</text>
 </svg>
