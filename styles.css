@@ -272,8 +272,10 @@ h1 em { color: var(--accent-display); font-style: italic; font-weight: 500; }
 .resume-role { max-width: 720px; margin: 26px 0 0; color: var(--coral-active); font-size: 18px; font-weight: 500; }
 .resume-summary { max-width: 760px; margin: 24px 0 0; color: var(--body-strong); font-size: 17px; line-height: 1.7; }
 .resume-contact { align-self: end; margin: 0; padding: 0; list-style: none; }
-.resume-contact li { padding: 12px 0; border-bottom: 1px solid var(--hairline); color: var(--muted); font-size: 13px; }
+.resume-contact li { min-height: 48px; display: grid; grid-template-columns: 30px minmax(0,1fr); gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--hairline); color: var(--muted); font-size: 13px; }
 .resume-contact a { color: var(--ink); text-decoration: none; }
+.contact-icon { width: 28px; height: 28px; display: grid; place-items: center; border: 1px solid var(--hairline); border-radius: 8px; color: var(--coral-active); background: var(--surface-soft); }
+.contact-icon svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.55; stroke-linecap: round; stroke-linejoin: round; }
 .resume-layout { display: grid; grid-template-columns: .72fr 1.28fr; gap: 86px; padding-top: 68px; }
 .resume-sidebar { display: flex; flex-direction: column; gap: 48px; }
 .resume-section + .resume-section { margin-top: 62px; }
