@@ -102,7 +102,7 @@ a { color: inherit; }
 .wordmark { display: inline-flex; align-items: center; color: var(--ink); font-family: var(--sans); font-size: 21px; font-weight: 600; line-height: 1; letter-spacing: -.06em; white-space: nowrap; }
 .wordmark-main em, .wordmark-ai em { color: var(--coral); font-style: italic; font-weight: 600; }
 .wordmark-main em { margin-left: -.035em; }
-.wordmark-divider { width: 1px; height: 1.42em; margin: 0 .48em; background: var(--hairline); }
+.wordmark-divider { width: 1px; height: .88em; margin: 0 .48em; background: var(--hairline); }
 .wordmark-ai { display: inline-flex; align-items: center; letter-spacing: -.11em; }
 .wordmark-ai em { margin-left: .02em; }
 .desktop-nav { display: flex; align-items: center; justify-content: center; gap: 30px; }
