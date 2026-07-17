@@ -28,19 +28,37 @@
     <meta property="og:title" content="CloudSci AI — Thoughtful Engineering for Cloud &amp; AI">
     <meta property="og:description" content="Open engineering for secure, automated, production-ready cloud platforms.">
     <meta property="og:url" content="https://cloudsci.ai/">
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CloudSci AI">
     <meta name="twitter:description" content="Cloud platforms, Kubernetes, infrastructure as code, and AI engineering.">
 
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "CloudSci AI",
-        "url": "https://cloudsci.ai/",
-        "email": "gowrish@outlook.com",
-        "sameAs": ["https://github.com/cloudsci-ai"],
-        "description": "Open engineering for secure, automated, production-ready cloud platforms."
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://cloudsci.ai/#organization",
+            "name": "CloudSci AI",
+            "url": "https://cloudsci.ai/",
+            "email": "gowrish@outlook.com",
+            "sameAs": ["https://github.com/cloudsci-ai"],
+            "founder": { "@id": "https://cloudsci.ai/#founder" },
+            "description": "An independent open-source engineering initiative for secure, automated, production-ready cloud platforms."
+          },
+          {
+            "@type": "Person",
+            "@id": "https://cloudsci.ai/#founder",
+            "name": "Gowrisha C. Vishwa Kumar",
+            "jobTitle": "Senior Cloud Platform Engineer",
+            "image": "https://cloudsci.ai/assets/gowrisha-c-vishwa-kumar.jpg",
+            "url": "https://cloudsci.ai/#about",
+            "sameAs": [
+              "https://www.linkedin.com/in/gowrishacv",
+              "https://github.com/gowrishacv"
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -61,6 +79,7 @@
           <a href="#capabilities">Capabilities</a>
           <a href="#projects">Projects</a>
           <a href="#roadmap">Roadmap</a>
+          <a href="#about">About</a>
           <a href="https://github.com/cloudsci-ai">GitHub</a>
         </nav>
 
@@ -78,6 +97,7 @@
               <a href="#capabilities">Capabilities</a>
               <a href="#projects">Projects</a>
               <a href="#roadmap">Roadmap</a>
+              <a href="#about">About</a>
               <a href="https://github.com/cloudsci-ai">GitHub organization</a>
               <a class="button button-primary" href="#contact">Get in touch</a>
             </nav>
@@ -279,6 +299,36 @@
         </div>
       </section>
 
+      <section class="section founder" id="about" aria-labelledby="founder-title">
+        <div class="shell founder-grid">
+          <figure class="founder-portrait">
+            <img src="assets/gowrisha-c-vishwa-kumar.jpg" width="720" height="720" alt="Portrait of Gowrisha C. Vishwa Kumar" loading="lazy" decoding="async">
+            <figcaption>Düsseldorf · Germany</figcaption>
+          </figure>
+
+          <div class="founder-copy">
+            <p class="kicker"><span aria-hidden="true">✦</span> The person behind CloudSci</p>
+            <h2 id="founder-title">Experience from production, shared in the open.</h2>
+            <p class="founder-name">Gowrisha C. Vishwa Kumar <span>Senior Cloud Platform Engineer</span></p>
+            <p>Gowrisha brings more than twelve years of IT experience to cloud platform engineering, with deep expertise in Azure landing zones, Terraform, identity, networking, governance, Kubernetes, and resilient operations in regulated environments.</p>
+            <p>CloudSci AI is his independent open-source initiative for turning lessons from real delivery work into inspectable architectures, reusable automation, and practical guidance for other engineers.</p>
+
+            <dl class="founder-evidence" aria-label="Selected professional outcomes">
+              <div><dt>12+</dt><dd>Years in IT</dd></div>
+              <div><dt>40%</dt><dd>Less manual provisioning</dd></div>
+              <div><dt>25%</dt><dd>Lower cloud run-rate</dd></div>
+              <div><dt>190 TB</dt><dd>Cross-cloud migration</dd></div>
+            </dl>
+
+            <div class="founder-actions">
+              <a class="button button-primary" href="resume.html">View résumé <span aria-hidden="true">→</span></a>
+              <a class="button button-secondary" href="https://www.linkedin.com/in/gowrishacv" rel="me">LinkedIn <span aria-hidden="true">↗</span></a>
+              <a class="founder-link" href="https://github.com/gowrishacv" rel="me">Personal GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="contact" id="contact" aria-labelledby="contact-title">
         <div class="shell contact-card">
           <div>
@@ -288,7 +338,7 @@
           <div class="contact-copy">
             <p>Follow the work, explore the repositories, or share an idea for the CloudSci ecosystem.</p>
             <div class="contact-actions">
-              <a class="button button-inverted" href="mailto:gowrish@outlook.com">Email Gowrish <span aria-hidden="true">↗</span></a>
+              <a class="button button-inverted" href="mailto:gowrish@outlook.com">Email Gowrisha <span aria-hidden="true">↗</span></a>
               <a class="button button-coral-outline" href="https://github.com/cloudsci-ai">GitHub organization</a>
             </div>
           </div>
@@ -308,9 +358,9 @@
           </a>
           <p>Practical cloud engineering.<br>Open by default.</p>
         </div>
-        <div class="footer-column"><h2>Explore</h2><a href="#capabilities">Capabilities</a><a href="#projects">Projects</a><a href="#roadmap">Roadmap</a></div>
+        <div class="footer-column"><h2>Explore</h2><a href="#capabilities">Capabilities</a><a href="#projects">Projects</a><a href="#roadmap">Roadmap</a><a href="#about">About</a></div>
         <div class="footer-column"><h2>Projects</h2><a href="https://github.com/cloudsci-ai/azure-landing-zone">Azure Landing Zone</a><a href="https://github.com/cloudsci-ai/aks-platform">AKS Platform</a><a href="https://github.com/cloudsci-ai/ai-agents">AI Agents</a></div>
-        <div class="footer-column"><h2>Connect</h2><a href="https://github.com/cloudsci-ai">GitHub</a><a href="mailto:gowrish@outlook.com">Email</a></div>
+        <div class="footer-column"><h2>Connect</h2><a href="https://github.com/cloudsci-ai">GitHub</a><a href="https://www.linkedin.com/in/gowrishacv" rel="me">LinkedIn</a><a href="resume.html">Résumé</a><a href="mailto:gowrish@outlook.com">Email</a></div>
       </div>
       <div class="shell footer-bottom"><p>© 2026 CloudSci AI</p><p>Cloud · Platform · AI Infrastructure</p></div>
     </footer>

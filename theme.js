@@ -3,6 +3,9 @@
   const button = document.querySelector(".theme-toggle");
   const themeColor = document.querySelector('meta[name="theme-color"]');
   const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
+  const printButton = document.querySelector("[data-print]");
+
+  printButton?.addEventListener("click", () => window.print());
 
   if (!button) return;
 
