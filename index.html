@@ -6,11 +6,22 @@
     <title>CloudSci AI — Thoughtful Engineering for Cloud &amp; AI</title>
     <meta name="description" content="CloudSci AI publishes practical, production-ready cloud platforms, Kubernetes patterns, infrastructure as code, and AI engineering resources.">
     <meta name="theme-color" content="#faf9f5">
-    <meta name="color-scheme" content="light">
+    <meta name="color-scheme" content="light dark">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://cloudsci.ai/">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
+    <script>
+      try {
+        const savedTheme = localStorage.getItem("cloudsci-theme");
+        if (savedTheme === "light" || savedTheme === "dark") {
+          document.documentElement.dataset.theme = savedTheme;
+        }
+      } catch (error) {
+        // The system theme remains available when storage is blocked.
+      }
+    </script>
+    <script src="theme.js" defer></script>
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="CloudSci AI">
@@ -53,18 +64,25 @@
           <a href="https://github.com/cloudsci-ai">GitHub</a>
         </nav>
 
-        <a class="button button-primary nav-action" href="#contact">Get in touch</a>
+        <div class="header-actions">
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Switch theme">
+            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 15.7A8.5 8.5 0 0 1 8.3 3.9 8.5 8.5 0 1 0 20.1 15.7Z"/></svg>
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2.2M12 19.8V22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M2 12h2.2M19.8 12H22M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"/></svg>
+          </button>
 
-        <details class="mobile-menu">
-          <summary aria-label="Open navigation"><span></span><span></span><span></span></summary>
-          <nav aria-label="Mobile navigation">
-            <a href="#capabilities">Capabilities</a>
-            <a href="#projects">Projects</a>
-            <a href="#roadmap">Roadmap</a>
-            <a href="https://github.com/cloudsci-ai">GitHub organization</a>
-            <a class="button button-primary" href="#contact">Get in touch</a>
-          </nav>
-        </details>
+          <a class="button button-primary nav-action" href="#contact">Get in touch</a>
+
+          <details class="mobile-menu">
+            <summary aria-label="Open navigation"><span></span><span></span><span></span></summary>
+            <nav aria-label="Mobile navigation">
+              <a href="#capabilities">Capabilities</a>
+              <a href="#projects">Projects</a>
+              <a href="#roadmap">Roadmap</a>
+              <a href="https://github.com/cloudsci-ai">GitHub organization</a>
+              <a class="button button-primary" href="#contact">Get in touch</a>
+            </nav>
+          </details>
+        </div>
       </div>
     </header>
 

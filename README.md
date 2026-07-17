@@ -30,6 +30,7 @@ Repository administrators must select **GitHub Actions** as the Pages source in 
 ├── CNAME                        # Custom domain
 ├── index.html                   # Semantic page content and SEO
 ├── styles.css                   # Responsive visual design
+├── theme.js                     # Persistent light/dark theme control
 ├── favicon.svg                  # Brand favicon
 └── robots.txt                   # Search crawler guidance
 ```
