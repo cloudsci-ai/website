@@ -1,0 +1,31 @@
+title: CloudSci AI
+description: Field notes on AI engineering, cloud platforms, Kubernetes, infrastructure as code, and production operations.
+url: https://cloudsci.ai
+baseurl: ""
+lang: en
+timezone: Europe/Berlin
+permalink: /blog/:title/
+excerpt_separator: "<!--more-->"
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+author:
+  name: Gowrisha C. Vishwa Kumar
+  email: gowrishcvk@gmail.com
+  linkedin: https://www.linkedin.com/in/gowrishacv
+  github: https://github.com/gowrishacv
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Gowrisha C. Vishwa Kumar
+exclude:
+  - EDITORIAL.md
+  - README.md
+  - LICENSE
+  - scripts
+  - work
+

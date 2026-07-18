@@ -1,0 +1,28 @@
+<header class="site-header">
+  <div class="shell nav-wrap">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="CloudSci AI home">
+      <span class="wordmark" aria-hidden="true"><span class="wordmark-main">CloudSc<em>i</em></span><span class="wordmark-divider"></span><span class="wordmark-ai"><span>A</span><em>I</em></span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/blog/#topics' | relative_url }}">Topics</a>
+      <a href="{{ '/#about' | relative_url }}">About</a>
+      <a href="https://github.com/cloudsci-ai">GitHub</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Switch theme">
+        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 15.7A8.5 8.5 0 0 1 8.3 3.9 8.5 8.5 0 1 0 20.1 15.7Z"/></svg>
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2.2M12 19.8V22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M2 12h2.2M19.8 12H22M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"/></svg>
+      </button>
+      <a class="button button-primary nav-action" href="{{ '/blog/' | relative_url }}">Read the blog</a>
+      <details class="mobile-menu">
+        <summary aria-label="Open navigation"><span></span><span></span><span></span></summary>
+        <nav aria-label="Mobile navigation">
+          <a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/blog/' | relative_url }}">Blog</a><a href="{{ '/blog/#topics' | relative_url }}">Topics</a><a href="{{ '/#about' | relative_url }}">About</a><a href="https://github.com/cloudsci-ai">GitHub</a>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+
