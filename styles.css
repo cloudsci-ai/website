@@ -350,6 +350,7 @@ h1 em { color: var(--accent-display); font-style: italic; font-weight: 500; }
 .post-content li { margin: 10px 0; padding-left: 5px; }
 .post-content strong { color: var(--ink); }
 .post-content a { color: var(--coral-active); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.post-content img { width: 100%; max-width: 100%; height: auto; display: block; margin: 36px auto; border-radius: 12px; }
 .post-content blockquote { margin: 40px 0; padding: 6px 0 6px 28px; border-left: 3px solid var(--coral); color: var(--muted); font-family: var(--display); font-size: 26px; line-height: 1.4; }
 .post-content code { padding: .14em .35em; border-radius: 4px; color: var(--ink); background: var(--surface-card); font-family: var(--mono); font-size: .82em; }
 .post-content pre { overflow-x: auto; margin: 36px 0; padding: 24px; border-radius: 12px; color: #e5e5ea; background: #111113; font-size: 14px; line-height: 1.65; }
