@@ -1,0 +1,10 @@
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+{% case include.name %}
+{% when 'cloud' %}<path d="M6.5 18h11a4 4 0 0 0 .5-8 6 6 0 0 0-11.5-1.5A4.8 4.8 0 0 0 6.5 18Z"/><path d="m9 13 3-3 3 3m-3-3v11"/>
+{% when 'code' %}<path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 20"/>
+{% when 'platform' %}<path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5"/>
+{% when 'shield' %}<path d="m12 3 8 3v6c0 4.5-4 7.5-8 9-4-1.5-8-4.5-8-9V6l8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/>
+{% when 'cost' %}<path d="M4 3v17h17M8 7l5 5 6-6m-5 0h5v5"/><path d="M8 16h2m4 0h5"/>
+{% when 'ai' %}<rect x="6" y="6" width="12" height="12" rx="3"/><path d="M9 3v3m6-3v3m-6 12v3m6-3v3M3 9h3m-3 6h3m12-6h3m-3 6h3m-11-3 2-2 2 2-2 2-2-2Z"/>
+{% endcase %}
+</svg>
