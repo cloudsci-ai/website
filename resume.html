@@ -1,3 +1,7 @@
+---
+layout: null
+permalink: /resume.html
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -86,8 +90,9 @@
           <aside class="resume-sidebar" aria-label="Skills, certifications, and education">
             <section><h2>Core expertise</h2><ul class="skill-list"><li>Azure Landing Zones</li><li>Terraform</li><li>Platform Engineering</li><li>Policy as Code</li><li>Microsoft Entra ID</li><li>Hub-Spoke Networking</li><li>Private Endpoints</li><li>AKS</li><li>GitHub Actions</li><li>Azure DevOps</li><li>BCDR</li><li>FinOps</li><li>Zero Trust</li><li>BaFin &amp; DORA</li><li>Linux</li><li>OpenStack</li></ul></section>
             <section><h2>Certifications</h2><ul class="credential-list">
-              <li>Azure Solutions Architect Expert <small>Microsoft · AZ-305</small></li><li>DevOps Engineer Expert <small>Microsoft · AZ-400</small></li><li>Azure Administrator Associate <small>Microsoft · AZ-104</small></li><li>Terraform Associate <small>HashiCorp · 003</small></li><li>Red Hat Certified Engineer <small>Red Hat · EX294</small></li><li>OpenStack Specialist <small>Red Hat · EX210</small></li><li>Azure Virtual Desktop Specialty <small>Microsoft · AZ-140</small></li><li>Azure AI Fundamentals <small>Microsoft · AI-900</small></li><li>GitHub Foundations <small>GitHub</small></li>
-            </ul></section>
+            {% for cert in site.data.certifications %}<li>{{ cert.name }} <small>{{ cert.issuer }} · {{ cert.code }}</small>{% if cert.verification_url %}<a class="resume-credential-link" href="{{ cert.verification_url }}">Verify badge ↗</a><small>Credly record {% if cert.historical %}expired{% else %}expires{% endif %} {{ cert.expires | date: '%-d %b %Y' }}</small>{% else %}<small>{{ cert.note }}</small>{% if cert.related_url %}<a class="resume-credential-link" href="{{ cert.related_url }}">{{ cert.related_label }} ↗</a>{% endif %}{% endif %}</li>{% endfor %}
+            </ul><p class="resume-credential-note">Public records checked 18 October 2026. Microsoft renewal records were not available in the public profile view.</p></section>
+
             <section><h2>Education</h2><ul class="credential-list"><li>Master of Computer Applications <small>GITAM Deemed University · 2020</small></li><li>Bachelor of Computer Applications <small>Tamil Nadu Open University · 2017</small></li></ul></section>
             <section><h2>Languages</h2><ul class="credential-list"><li>English <small>Professional working proficiency</small></li><li>German <small>A1 certified; progressing toward B1</small></li></ul></section>
           </aside>

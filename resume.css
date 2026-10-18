@@ -318,3 +318,15 @@
     text-decoration: none !important;
   }
 }
+
+.resume-credential-link {
+  display: inline-block;
+  color: var(--accent);
+  font-size: 11px;
+  margin-top: 5px;
+}
+.resume-credential-note {
+  color: var(--muted);
+  font-size: 10px;
+  margin: 16px 0 0;
+}
