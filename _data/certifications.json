@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "terraform",
+    "name": "Terraform Associate",
+    "issuer": "HashiCorp",
+    "code": "003",
+    "checked_on": "2026-10-18",
+    "verification_url": "https://www.credly.com/badges/de004d7a-6709-4525-8686-bbb7f7e1e1f7",
+    "badge": "/assets/certifications/terraform.png",
+    "image_source": "https://images.credly.com/images/0dc62494-dc94-469a-83af-e35309f27356/blob",
+    "issued": "2025-04-05",
+    "expires": "2027-04-05",
+    "historical": false
+  },
+  {
+    "slug": "github",
+    "name": "GitHub Foundations",
+    "issuer": "GitHub",
+    "code": "Foundations",
+    "checked_on": "2026-10-18",
+    "verification_url": "https://www.credly.com/badges/bba71ea0-c647-41a7-9528-14ec12dac9f1",
+    "badge": "/assets/certifications/github.png",
+    "image_source": "https://images.credly.com/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png",
+    "issued": "2025-04-13",
+    "expires": "2028-04-13",
+    "historical": false
+  },
+  {
+    "slug": "azure-architect",
+    "name": "Azure Solutions Architect Expert",
+    "issuer": "Microsoft",
+    "code": "AZ-305",
+    "checked_on": "2026-10-18",
+    "verification_url": "https://www.credly.com/badges/0b3d5a97-f5f8-45c8-abca-264c6de15baf",
+    "badge": "/assets/certifications/azure-architect.png",
+    "image_source": "https://images.credly.com/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png",
+    "issued": "2021-11-20",
+    "expires": "2024-11-20",
+    "historical": true
+  },
+  {
+    "slug": "azure-administrator",
+    "name": "Azure Administrator Associate",
+    "issuer": "Microsoft",
+    "code": "AZ-104",
+    "checked_on": "2026-10-18",
+    "verification_url": "https://www.credly.com/badges/167bfe22-6ec5-4b68-ac23-eb69e8230085",
+    "badge": "/assets/certifications/azure-administrator.png",
+    "image_source": "https://images.credly.com/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png",
+    "issued": "2019-05-18",
+    "expires": "2024-11-18",
+    "historical": true
+  },
+  {
+    "slug": "azure-desktop",
+    "name": "Azure Virtual Desktop Specialty",
+    "issuer": "Microsoft",
+    "code": "AZ-140",
+    "checked_on": "2026-10-18",
+    "verification_url": "https://www.credly.com/badges/63956a58-106a-4d7a-967f-4089c7d92121",
+    "badge": "/assets/certifications/azure-desktop.png",
+    "image_source": "https://images.credly.com/images/ea009208-e2d6-432e-bbf6-d34d28b0835f/azure-virtual-desktop-specialty-600x600.png",
+    "issued": "2021-06-13",
+    "expires": "2024-06-13",
+    "historical": true
+  },
+  {
+    "slug": "devops",
+    "name": "DevOps Engineer Expert",
+    "issuer": "Microsoft",
+    "code": "AZ-400",
+    "checked_on": "2026-10-18",
+    "related_url": "https://www.credly.com/badges/67bc79d2-c990-40ef-8347-2dd7847a67aa",
+    "related_label": "View AZ-400 exam record",
+    "note": "Exam badge available; expert credential verification pending."
+  },
+  {
+    "slug": "rhce",
+    "name": "Red Hat Certified Engineer",
+    "issuer": "Red Hat",
+    "code": "EX294",
+    "checked_on": "2026-10-18",
+    "note": "Listed in r\u00e9sum\u00e9; personal verification link pending."
+  },
+  {
+    "slug": "openstack",
+    "name": "OpenStack Specialist",
+    "issuer": "Red Hat",
+    "code": "EX210",
+    "checked_on": "2026-10-18",
+    "note": "Listed in r\u00e9sum\u00e9; personal verification link pending."
+  },
+  {
+    "slug": "ai-fundamentals",
+    "name": "Azure AI Fundamentals",
+    "issuer": "Microsoft",
+    "code": "AI-900",
+    "checked_on": "2026-10-18",
+    "note": "Listed in r\u00e9sum\u00e9; personal verification link pending."
+  }
+]

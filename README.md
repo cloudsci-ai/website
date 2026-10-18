@@ -11,7 +11,7 @@ cloudsci.ai is the umbrella technical brand for my Azure, Terraform, Kubernetes,
 - **Projects:** evidence and status, with detailed pages for Azure AI Agent and GreenOps AI. Planned repositories are labelled separately.
 - **Architecture / Engineering Notes:** articles at `/blog/`; existing article URLs and RSS remain available.
 - **Skills / Tech Stack:** engineering focus areas, without proficiency scores.
-- **Certifications:** credentials already listed in the résumé, with a validity disclosure.
+- **Certifications:** official public badge images and personal verification links for matched résumé credentials; Credly expiry dates and pending verification are visible.
 - **Contact:** direct email, LinkedIn, and GitHub links.
 
 ## Structure
@@ -28,7 +28,9 @@ index.html                   Portfolio homepage
 styles.css                   Responsive portfolio and article styles
 resume.html / resume.css     Existing résumé content and isolated styles
 theme.js                     Persistent theme toggle and mobile menu behavior
-assets/                      Existing portrait
+assets/                      Portrait and official certification badge images
+_data/certifications.json    Shared résumé/homepage credentials and provenance
+_includes/skill-icon.html    Six consistent decorative SVG skill icons
 CNAME                        cloudsci.ai custom domain
 feed.xml / sitemap.xml       Discovery and RSS
 PORTFOLIO.md                  Inspection, decisions, evidence, and validation notes
@@ -50,7 +52,7 @@ Make changes on a branch and open a PR. Existing articles use `_posts/YYYY-MM-DD
 
 ## Content evidence
 
-Describe source code, documented designs, test results, and verified deployments separately. Project status is an editorial snapshot, not a live health indicator. Do not turn blueprint material into production claims or publish savings without measurements. Certification validity and credentials must be verified before adding active badges or credential links.
+Describe source code, documented designs, test results, and verified deployments separately. Project status is an editorial snapshot, not a live health indicator. Do not turn blueprint material into production claims or publish savings without measurements. Certification images and personal verification links are recorded in `_data/certifications.json`. Keep the checked date, issuer expiry dates, source image URLs, and pending status accurate. See `CREDENTIALS.md` for evidence boundaries.
 
 The existing résumé and historical articles are retained as source content. Their historical employment metrics and deployment narratives were not independently audited by this redesign.
 
