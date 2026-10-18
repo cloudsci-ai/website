@@ -46,4 +46,11 @@ Deployment remains PR-only until merge. Existing production domain and main bran
 
 ## Validation
 
-Validation results are recorded in the PR. Browser review must cover desktop/mobile, light/dark, navigation, project/article links, theme persistence, and résumé/print styles. The existing Jekyll workflow is the authoritative build check.
+- Existing GitHub Pages Jekyll PR build passed. Deployment job skipped as intended.
+- Generated output: 7 HTML pages and 177 internal links/assets checked; no missing local targets or fragments. RSS and sitemap parsed as XML.
+- JavaScript syntax and Git whitespace checks passed.
+- Browser review: desktop at 1440px and mobile at 390px; no document horizontal overflow at those sizes. Reviewed light and dark themes, mobile menu open/close, project and article layouts, loaded article imagery, theme persistence across reload, résumé mobile layout, keyboard skip-link focus, and emulated print styles.
+- Adjusted heading tracking and mobile line-break whitespace after visual review.
+- Full accessibility audit, browser 200% zoom, and physical print pagination were not completed. Project deployments, project test suites, employment metrics, and certification validity remain outside this website validation.
+
+The existing Jekyll workflow is the authoritative build check. No production deployment was triggered.
