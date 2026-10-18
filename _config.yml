@@ -1,5 +1,5 @@
-title: CloudSci AI
-description: Field notes on AI engineering, cloud platforms, Kubernetes, infrastructure as code, and production operations.
+title: cloudsci.ai
+description: The personal engineering portfolio of Gowrisha C. Vishwa Kumar. Azure architecture, Terraform, Kubernetes, DevOps, FinOps, and AI.
 url: https://cloudsci.ai
 baseurl: ""
 lang: en
@@ -26,6 +26,7 @@ exclude:
   - EDITORIAL.md
   - README.md
   - LICENSE
+  - PORTFOLIO.md
   - scripts
   - work
 

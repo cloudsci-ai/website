@@ -2,22 +2,24 @@
   const root = document.documentElement;
   const button = document.querySelector(".theme-toggle");
   const themeColor = document.querySelector('meta[name="theme-color"]');
-  const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
   const printButton = document.querySelector("[data-print]");
 
   printButton?.addEventListener("click", () => window.print());
 
   if (!button) return;
 
-  const currentTheme = () => root.dataset.theme || (systemTheme.matches ? "dark" : "light");
+  const currentTheme = () => root.dataset.theme || "light";
 
   const render = () => {
     const dark = currentTheme() === "dark";
     button.dataset.mode = dark ? "dark" : "light";
     button.setAttribute("aria-pressed", String(dark));
-    button.setAttribute("aria-label", `Switch to ${dark ? "light" : "dark"} theme`);
+    button.setAttribute(
+      "aria-label",
+      `Switch to ${dark ? "light" : "dark"} theme`,
+    );
     button.title = `Switch to ${dark ? "light" : "dark"} theme`;
-    themeColor?.setAttribute("content", dark ? "#000000" : "#faf9f5");
+    themeColor?.setAttribute("content", dark ? "#111923" : "#f7f8fc");
   };
 
   button.addEventListener("click", () => {
@@ -31,8 +33,10 @@
     render();
   });
 
-  systemTheme.addEventListener("change", () => {
-    if (!root.dataset.theme) render();
+  document.querySelectorAll(".mobile-menu a").forEach((link) => {
+    link.addEventListener("click", () =>
+      link.closest("details").removeAttribute("open"),
+    );
   });
 
   render();
